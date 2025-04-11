@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FB4B2D7-221A-B33F-74F3-1BD7775B9DBC" name="PEDIDO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:44:07 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pedido_id" id="ABE83D73-AFF6-9868-C138-85EF2C0331AB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:44:26 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedido_data_hora" id="32F1D36C-6E5C-9897-04B3-C69127A01D27">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:44:27 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedido_forma_pagto" id="5DAF75C6-686A-FDF3-15F5-4EB722538AB0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:44:27 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedido_status" id="A5B6DB55-B5BE-F489-E7CC-762C69FAADCC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:44:28 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_id" id="56505BE0-C592-9A7D-78F5-1F404DB8AF44">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:51:46 UTC</createdTime>
+<generatorID>E7956AA0-E54E-EF5E-D1F8-0432DFB1E478</generatorID>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<referedAttribute>3DD0459E-AAFB-E2E7-A924-8ECBA5DDA7EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedido_valor_total" id="3F9A2343-E0F6-83F0-94CF-80A1469D3986">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 12:09:45 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E158D0A9-E2F3-31A0-3771-AA21ABDE725C" name="PEDIDO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:45:27 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ABE83D73-AFF6-9868-C138-85EF2C0331AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

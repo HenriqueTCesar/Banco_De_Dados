@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBD5C709-43EC-0134-9267-48036B683BCB" name="CLIENTES">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:25:11 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cliente_id" id="3DD0459E-AAFB-E2E7-A924-8ECBA5DDA7EF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:25:29 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_nome" id="92CE4B5A-3E6E-4787-EE56-ABAA7013A03A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:25:31 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliete_telefone_principal" id="21868AAF-0923-CC42-D2CA-5A761C11BC1D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:25:32 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_telefone_celular" id="03211E04-CB7E-771C-3021-E7A5ED329E13">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:25:32 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_rua" id="41E87B93-75E6-4B1C-DD85-AE45F6B24BDE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:29:22 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_numero" id="BFA6FB3C-C93B-4D55-0C86-6B8CA2B137A2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:29:23 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_bairro" id="35CD6A9E-B717-E77D-73E9-C1F5435452B6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:29:23 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_cep" id="FC5E71E3-8C55-4DBC-6092-51E4A5298971">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:29:23 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_cidade" id="E5740F5D-DABA-B876-A27B-5EC5D9610ECB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:29:23 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_estado" id="71A8E2A4-F8DD-2373-B479-81E6FDC0FC57">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:29:24 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A83F2018-1FF6-6C06-B20C-8FB9873DF39F" name="CLIENTES PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:26:25 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3DD0459E-AAFB-E2E7-A924-8ECBA5DDA7EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

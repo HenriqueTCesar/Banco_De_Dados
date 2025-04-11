@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEB04C6D-2F34-1F2E-B7C2-13C03B1458B8" name="ITEM_PEDIDO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:53:52 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>tem</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="item_id" id="F1ECA4B1-5E8B-679D-CC0D-B083A67E6A64">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:54:07 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="item_quantidade" id="3E34CC81-743F-7793-A4FA-0443E7B96A76">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:54:11 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="item_preco" id="F293263B-C327-AC01-484D-0C7203EC1C13">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:54:11 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="item_observacao" id="22E51517-761F-2F04-B3F6-3D35AA92498D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:54:37 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedido_id" id="F2ADBDE4-2038-303F-B6B1-15B59767CBE2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 12:00:01 UTC</createdTime>
+<generatorID>1CAB4397-C064-B4FF-1D29-E0B2CC392D40</generatorID>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<referedAttribute>ABE83D73-AFF6-9868-C138-85EF2C0331AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pizza_id" id="CD31F978-6D8A-2294-994C-54F6D2960B24">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 12:00:14 UTC</createdTime>
+<generatorID>E75373FD-DEB1-ED71-5504-520E500AAC46</generatorID>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<referedAttribute>74D60A22-B81E-62E8-C264-8C41616F72B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="52CCBA5B-07A4-AAD6-FC7C-06DF70FFBD83" name="ITEM_PEDIDO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:54:47 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1ECA4B1-5E8B-679D-CC0D-B083A67E6A64</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

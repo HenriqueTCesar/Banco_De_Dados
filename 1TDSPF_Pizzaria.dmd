@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="1TDSPF_Pizzaria" id="B01BAAE1-793C-6BEB-302B-6D7C3AC947B1" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 11:25:06 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B01BAAE1-793C-6BEB-302B-6D7C3AC947B1</designId>
+</OSDM_Design>

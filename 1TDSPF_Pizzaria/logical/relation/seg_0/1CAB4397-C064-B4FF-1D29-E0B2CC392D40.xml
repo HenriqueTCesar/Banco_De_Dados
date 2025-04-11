@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="1CAB4397-C064-B4FF-1D29-E0B2CC392D40">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 12:00:01 UTC</createdTime>
+<ownerDesignName>1TDSPF_Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="25ED212E-7B3E-AC45-75F2-3FBFF9E9E808" value="true"/>
+</engineerTo>
+<sourcePk>E158D0A9-E2F3-31A0-3771-AA21ABDE725C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0FB4B2D7-221A-B33F-74F3-1BD7775B9DBC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EEB04C6D-2F34-1F2E-B7C2-13C03B1458B8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
