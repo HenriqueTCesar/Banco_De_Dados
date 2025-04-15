@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94C602AF-F010-DAC1-C614-9C6BA0C988A6" name="MATERIAIS">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 13:58:04 UTC</createdTime>
+<ownerDesignName>NN pronto ainda, logico</ownerDesignName>
+<engineerTo>
+<item key="6A6E14A3-B87B-A9D5-648E-D3CE70496FD0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_produtos" id="C575E5EB-86A6-0B2C-3A91-6152AC8EB7FD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 13:58:16 UTC</createdTime>
+<ownerDesignName>NN pronto ainda, logico</ownerDesignName>
+<engineerTo>
+<item key="6A6E14A3-B87B-A9D5-648E-D3CE70496FD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_barras" id="CBFDA142-49CE-8BE9-CE74-D4461E9E106F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 13:58:17 UTC</createdTime>
+<ownerDesignName>NN pronto ainda, logico</ownerDesignName>
+<engineerTo>
+<item key="6A6E14A3-B87B-A9D5-648E-D3CE70496FD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_produtos" id="648D010C-F58F-087B-4532-B2EA922ADBF5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 13:58:17 UTC</createdTime>
+<ownerDesignName>NN pronto ainda, logico</ownerDesignName>
+<engineerTo>
+<item key="6A6E14A3-B87B-A9D5-648E-D3CE70496FD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="F0EBCCB0-D45A-73E8-837A-524DB4060E68">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 13:58:18 UTC</createdTime>
+<ownerDesignName>NN pronto ainda, logico</ownerDesignName>
+<engineerTo>
+<item key="6A6E14A3-B87B-A9D5-648E-D3CE70496FD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco_produtos" id="C6EA9717-B0BC-19C0-B6C6-144ABEA84142">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 13:58:18 UTC</createdTime>
+<ownerDesignName>NN pronto ainda, logico</ownerDesignName>
+<engineerTo>
+<item key="6A6E14A3-B87B-A9D5-648E-D3CE70496FD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="87EE960D-689C-572B-B94F-DE47E91C4F28">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 13:58:18 UTC</createdTime>
+<ownerDesignName>NN pronto ainda, logico</ownerDesignName>
+<engineerTo>
+<item key="6A6E14A3-B87B-A9D5-648E-D3CE70496FD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84045573-987D-73AB-950B-748767C183D8" name="MATERIAIS PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 13:59:33 UTC</createdTime>
+<ownerDesignName>NN pronto ainda, logico</ownerDesignName>
+<engineerTo>
+<item key="6A6E14A3-B87B-A9D5-648E-D3CE70496FD0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C575E5EB-86A6-0B2C-3A91-6152AC8EB7FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
